@@ -7,6 +7,9 @@ module.exports = {
         bgImage:
           "url('https://www.gold.ac.uk/media/images-by-section/homepage-hero/Students-in-the-library.jpg')",
       },
+      colors: {
+        whiteSmoke: "#f6f7f7",
+      },
     },
   },
   plugins: [],
