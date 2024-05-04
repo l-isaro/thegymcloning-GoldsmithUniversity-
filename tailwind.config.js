@@ -9,6 +9,9 @@ module.exports = {
       },
       colors: {
         whiteSmoke: "#f6f7f7",
+        otherBlue: "#3771c1",
+        footerGray: "#333333",
+        footerText: "#bec4c8",
       },
     },
   },
