@@ -12,36 +12,36 @@
   </head>
   <body class="">
     <div class="">
-      <header class="flex justify-between p-8 self-center">
+      <header class="flex justify-between p-8 self-center items-center">
         <img
           src="https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg"
           alt="logo"
-          class=""
+          class="w-25 h-6 lg:w-auto lg:h-auto"
         />
         <div class="flex gap-5 font-bold text-gray-500">
           <button class="">
-            <i class="ri-graduation-cap-line text-3xl mx-2"></i>
-            Students & staff
+            <i class="ri-graduation-cap-line text-3xl lg:mx-2"></i>
+            <p class="hidden lg:inline">Students & staff</p>
           </button>
           <button class="">
-            <i class="ri-search-line text-3xl mx-2"></i>
-            Search
+            <i class="ri-search-line text-3xl lg:mx-2"></i>
+            <p class="hidden lg:inline">Search</p>
           </button>
           <button class="">
-            <i class="ri-menu-fill text-3xl mx-2"></i>
-            Menu
+            <i class="ri-menu-fill text-3xl lg:mx-2"></i>
+            <p class="hidden lg:inline">Menu</p>
           </button>
         </div>
       </header>
       <main>
-        <div>
+        <div class="">
           <div
-            class="bg-[url('https://www.gold.ac.uk/media/images-by-section/homepage-hero/Students-in-the-library.jpg')] text-white relative"
+            class="bg-[url('https://www.gold.ac.uk/media/images-by-section/homepage-hero/Students-in-the-library.jpg')] text-white"
           >
             <div
-              class="py-52 w-[45%] bg-orange-600 flex flex-col items-center bg-[url('https://www.gold.ac.uk/media/images-by-section/homepage/2022-campaign/outline.png')] bg-cover bg-center"
+              class="h-32 lg:h-auto lg:py-52 lg:w-[45%] bg-orange-600 flex flex-col items-center bg-[url('https://www.gold.ac.uk/media/images-by-section/homepage/2022-campaign/outline.png')] bg-cover bg-center"
             >
-              <h1 class="font-bold text-6xl w-2/5 my-5">
+              <h1 class="font-bold lg:text-6xl w-2/5 my-5">
                 Dynamic learning,
                 <span class="font-normal">distinctive experience</span>
               </h1>
@@ -59,8 +59,8 @@
         alt=""
         class="absolute bottom-0 right-0"
       /> -->
-        <section class="p-14 bg-whiteSmoke">
-          <div class="grid grid-cols-4 gap-7">
+        <section class="p-7 lg:p-14 bg-whiteSmoke">
+          <div class="flex flex-col lg:grid lg:grid-cols-4 gap-7">
             <div class="col-span-2 row-span-2">
               <div class="-mb-5">
                 <img
@@ -70,7 +70,7 @@
                 />
               </div>
               <div
-                class="px-5 py-3 flex flex-col gap-36 shadow-sm w-[95%] z-10 mx-auto bg-white"
+                class="px-5 py-3 flex flex-col gap-5 lg:gap-36 shadow-sm w-[95%] relative z-10 mx-auto bg-white"
               >
                 <div class="text-center">
                   <h3 class="font-medium text-2xl mt-4">Live like a local</h3>
@@ -90,7 +90,9 @@
                 </div>
               </div>
             </div>
-            <div class="shadow-sm p-8 flex flex-col justify-between bg-white">
+            <div
+              class="shadow-sm p-8 flex flex-col gap-10 lg:justify-between bg-white"
+            >
               <div>
                 <h3 class="font-medium text-lg">Study at Goldsmiths</h3>
                 <p class="mt-5">Explore our guide to studying at Goldsmiths</p>
@@ -128,14 +130,14 @@
                 />
               </div>
             </div>
-            <div class="col-span-2 relative">
+            <div class="col-span-2 lg:relative">
               <img
                 src="https://www.gold.ac.uk/media/images-by-section/homepage/Scholarship_homepage.jpg"
                 alt=""
                 class=""
               />
               <div
-                class="shadow-sm p-5 bg-white absolute bottom-5 right-0 w-2/4"
+                class="shadow-sm p-5 bg-white lg:absolute lg:bottom-5 lg:right-0 lg:w-2/4 w-[95%] relative z-10 mx-auto"
               >
                 <p class="font-medium text-lg">
                   Explore our range of scholarships, bursaries and fee waivers
@@ -154,11 +156,12 @@
             </div>
           </div>
         </section>
-        <section class="p-14 bg-whiteSmoke">
+        <section class="p-7 lg:p-14 bg-whiteSmoke">
           <div class="flex gap-8 items-start">
             <img
               src="https://www.gold.ac.uk/assets/img/svg/icon-search.svg"
               alt=""
+              class="hidden lg:inline-block"
             />
             <div class="">
               <p class="font-medium text-xl">Search:</p>
@@ -171,8 +174,8 @@
                   type="text"
                   name=""
                   id=""
-                  size="120"
-                  class="border border-gray-600 py-3"
+                  size=""
+                  class="border border-gray-600 py-3 lg:px-96"
                 />
                 <button
                   class="px-10 py-3 bg-yellow-500 border-b-4 border-gray-500"
@@ -182,12 +185,14 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-4 grid-rows-2 gap-5 mt-24">
+          <div
+            class="flex flex-col lg:grid lg:grid-cols-4 lg:grid-rows-2 gap-5 mt-24"
+          >
             <div
-              class="col-span-2 relative bg-[url('https://www.gold.ac.uk/media/images-by-section/about-us/news/VRLatham.jpg')] bg-cover bg-center"
+              class="col-span-2 lg:relative bg-[url('https://www.gold.ac.uk/media/images-by-section/about-us/news/VRLatham.jpg')] bg-cover bg-center"
             >
               <div
-                class="shadow-sm p-5 bg-white absolute bottom-5 right-0 w-2/4"
+                class="shadow-sm p-5 bg-white lg:absolute bottom-5 right-0 w-2/4"
               >
                 <p class="font-medium">Research which changes the world</p>
                 <div
@@ -321,7 +326,7 @@
                 alt=""
               />
               <div
-                class="shadow-sm p-8 bg-white absolute bottom-5 right-0 w-2/4"
+                class="shadow-sm p-8 bg-white lg:absolute bottom-5 right-0 lg:w-2/4 relative z-10 w-[95%] lg:w-auto mx-auto"
               >
                 <h3 class="font-medium mb-8 text-center">
                   Join our alumni community for exclusive benefits and
@@ -341,12 +346,14 @@
           </div>
         </section>
         <!-- news -->
-        <section class="p-14">
-          <div class="flex justify-around mb-12 font-bold text-3xl">
+        <section class="py-7 lg:p-14">
+          <div class="flex justify-around mb-12 font-bold text-xl lg:text-3xl">
             <p>News</p>
-            <p>Events</p>
+            <p class="hidden lg:inline-block">Events</p>
           </div>
-          <div class="flex gap-5 text-gray-500 font-medium">
+          <div
+            class="flex flex-col lg:flex-row gap-5 text-gray-500 font-medium"
+          >
             <div>
               <div>
                 <img
@@ -371,6 +378,9 @@
               </div>
               <p class="text-center">27 Mar 2024</p>
             </div>
+            <p class="font-bold text-xl lg:hidden text-black text-center">
+              Events
+            </p>
             <div>
               <div class="text-center">
                 <img src="images/image.jpeg" alt="" class="" />
@@ -401,46 +411,54 @@
           </div>
         </section>
       </main>
-      <footer class="p-14 text-white font-medium bg-footerGray">
-        <div class="flex justify-between">
-          <div>
-            <ul>
-              <li>About us</li>
-              <li>Contact us</li>
-              <li>Find us</li>
-              <li>Jobs</li>
-            </ul>
+      <footer class="p-7 lg:p-14 text-white font-medium bg-footerGray">
+        <div>
+          <div class="flex justify-between">
+            <div>
+              <ul>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Find us</li>
+                <li>Jobs</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="w-3/5 lg:w-auto">
+                <li class="w-2/4 lg:w-auto">Accessibility statement</li>
+                <li>Cookie use</li>
+                <li>Copyright and disclaimer</li>
+                <li class="">Slavery and human trafficking statement</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li>Accessibility statement</li>
-              <li>Cookie use</li>
-              <li>Copyright and disclaimer</li>
-              <li>Slavery and human trafficking statement</li>
-            </ul>
+          <div class="flex justify-between">
+            <div>
+              <p class="text-footerText hover:text-white cursor-pointer">
+                Admin login
+              </p>
+            </div>
+            <div class="text-white flex gap-4 text-lg">
+              <i
+                class="ri-twitter-x-line hover:text-footerText cursor-pointer"
+              ></i>
+              <i
+                class="ri-linkedin-fill hover:text-footerText cursor-pointer"
+              ></i>
+              <i
+                class="ri-tiktok-fill hover:text-footerText cursor-pointer"
+              ></i>
+              <i
+                class="ri-instagram-line hover:text-footerText cursor-pointer"
+              ></i>
+              <i
+                class="ri-youtube-fill hover:text-footerText cursor-pointer"
+              ></i>
+            </div>
           </div>
-          <div>
-            <p class="text-footerText hover:text-white cursor-pointer">
-              Admin login
-            </p>
+          <div class="flex justify-between text-xs mt-8 text-footerText">
+            <p>&copy; 2024 Goldsmiths, University of London</p>
+            <p>Back to top</p>
           </div>
-          <div class="text-white flex gap-4 text-lg">
-            <i
-              class="ri-twitter-x-line hover:text-footerText cursor-pointer"
-            ></i>
-            <i
-              class="ri-linkedin-fill hover:text-footerText cursor-pointer"
-            ></i>
-            <i class="ri-tiktok-fill hover:text-footerText cursor-pointer"></i>
-            <i
-              class="ri-instagram-line hover:text-footerText cursor-pointer"
-            ></i>
-            <i class="ri-youtube-fill hover:text-footerText cursor-pointer"></i>
-          </div>
-        </div>
-        <div class="flex justify-between text-xs mt-8 text-footerText">
-          <p>&copy; 2024 Goldsmiths, University of London</p>
-          <p>Back to top</p>
         </div>
       </footer>
     </div>
